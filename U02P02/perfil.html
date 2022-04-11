@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 02 - Perfil</title>
+    <style>
+        fieldset{
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 500px;
+            height: auto;
+            background-color:rgba(122, 122, 122, 0.137);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <h1>Perfil</h1>
+        <form action="" method="POST" target="_blank">
+            <label for="Nombre">Nombre: </label>
+            <input type="text" name="Nombre" placeholder="Ingrese aqui su nombre" id="Nombre">
+            <br>
+            <label for="Apellido">Apellido: </label>
+            <input type="text" name="Apellido" placeholder="Ingrese aqui su apellido" id="Apellido" >
+            <br>
+            <label for="EMAIL">Correo electronico: </label>
+            <input type="text" name="correo electronico" id="EMAIL" placeholder="nombre@correo.com" autocomplete>
+            <br>
+            <label for="Edad">Edad: </label>
+            <input type="number" name="Edad" id="Edad">
+            <br>
+            <label for="Nacionalidad">Nacionalidad: </label>
+            <select name="Nacionalidad" id="Nacionalidad">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Chile">Chile</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Seleccion" selected>-- seleccione una --</option>
+            </select>
+            <br>
+            <label for="Condición laboral">Condición laboral: </label>
+            <select name="Condición laboral" id="Condición laboral">
+                <option value="Desempleado">Desempleado</option>
+                <option value="En búsqueda laboral">En búsqueda laboral</option>
+                <option value="Trabajo part-time">Trabajo-time</option>
+                <option value="Trabajo full-time">Trabajo full-time</option>
+                <option value="Seleccion" selected>-- seleccione una --</option>
+            </select>
+            <hr color="black">
+            <label for="Gustos musicales">Gustos musicales: </label>
+            <input type="text" name="Gustos musicales" id="Gustos musicales" placeholder="Ej: rock nacional">
+            <br>
+            <label for="Comida favorita">Comida favorita: </label>
+            <select name="Comida favorita" id="Comida favorita">
+                <option value="Asado">Asado</option>
+                <option value="Pastas">Pastas</option>
+                <option value="Pizzas">Pizzas</option>
+                <option value="Hamburguesas">Hamburguesas</option>
+                <option value="Pescados">Pescados</option>
+                <option value="Otros">Otros</option>
+                <option value="Seleccion" selected>-- seleccione una --</option>
+            </select>
+            <br><hr color="black">
+            <label for="Guardado">Recordar mis datos</label>
+            <input type="checkbox" id="Guardado">
+            <br>
+            <input type="submit" value="Enviar formulario">
+        </form>
+    </fieldset>
+</body>
+</html>

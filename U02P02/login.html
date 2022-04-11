@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 02 - Login</title>
+    <style>
+        fieldset{
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 500px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <h3>Complete los siguientes campos para iniciar sesión</h3>
+    <fieldset>
+        <legend>Datos del usuario:</legend>
+        <form action="" method="POST" target="_blank">
+            <label for="Usuario">Usuario: </label>
+            <input type="text" name="Usuario" placeholder="Ingrese aqui su usuario" id="Usuario">
+            <br>
+            <label for="CONTRASEÑA">Contraseña: </label>
+            <input type="password" name="CONTRASEÑA" id="CONTRASEÑA" placeholder="********">
+            <hr>
+            <label for="Guardado">Recordar mis datos</label>
+            <input type="checkbox" id="Guardado">
+            <br>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+    </fieldset>
+</body>
+</html>
