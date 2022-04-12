@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 04 - Contacto</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>CONTACTO</h1>
+    </header>
+
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./multimedia.html">Multimedia</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="./youtube.html">Youtube</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <form action="" method="post" target="_blank">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="Nombre">Nombre:</label></td>
+                            <td><input type="text" name="Nombre" id="Nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Email">Email:</label></td>
+                            <td><input type="email" name="Email" id="Email" placeholder="correo@email.com" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Edad">Edad:</label></td>
+                            <td><input type="number" name="Edad" id="Edad" min="0" max="100"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Color">Color Preferido:</label></td>
+                            <td><input type="color" name="Color" id="Color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Comentario">Comentario:</label></td>
+                            <td><input type="text" name="Comentario" id="Comentario" placeholder="Mínimo 10 caracteres" minlength="10"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset">
+            </form>
+            <br><br>
+            <h2>Nuestra ubicación</h2>
+            <p>Universidad Tecnologica Nacional - UTN</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.294457825101!2d-60.6450511189449!3d-32.954707361761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses!2sar!4v1649795149354!5m2!1ses!2sar"
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>Esta es la sección de contacto</br>
+                Donde creamos un formulario con diversos campos    
+            </p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright GASTON BORTOLI</p>
+    </footer>
+</body>
+
+</html>
