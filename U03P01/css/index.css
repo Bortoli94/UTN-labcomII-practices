@@ -70,7 +70,7 @@ ul{
     list-style-type: none;  /*QUITA LAS VIÑETAS DE LA LISTA*/
 }
 
-.color-verde, .color-verde>a{
+.color-verde, .color-verde a{
     color: green;   
 }
 
